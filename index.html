@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>공무원 인사교류 활성화 및 채용제도 개선</title>
+  <style>
+    :root {
+      --navy: #17365d;
+      --blue: #2463a6;
+      --pale: #eef4fa;
+      --ink: #253244;
+      --muted: #617084;
+      --line: #d9e2ec;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #f4f7fb;
+      color: var(--ink);
+      font-family: "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+      line-height: 1.75;
+    }
+    .page {
+      width: min(920px, calc(100% - 36px));
+      margin: 42px auto;
+      padding: 48px 56px;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      box-shadow: 0 8px 28px rgba(25, 48, 76, .07);
+    }
+    .eyebrow {
+      margin: 0 0 12px;
+      color: var(--blue);
+      font-size: .9rem;
+      font-weight: 700;
+      letter-spacing: .04em;
+    }
+    h1 {
+      margin: 0 0 18px;
+      color: var(--navy);
+      font-size: clamp(1.8rem, 4vw, 2.45rem);
+      line-height: 1.35;
+      letter-spacing: -.04em;
+    }
+    .summary {
+      margin: 0 0 30px;
+      padding: 18px 22px;
+      background: var(--pale);
+      border-left: 4px solid var(--blue);
+      border-radius: 6px;
+    }
+    .summary ul { margin: 0; padding-left: 20px; }
+    .meta {
+      margin: 0 0 34px;
+      color: var(--muted);
+      font-size: .9rem;
+    }
+    section { margin: 38px 0; }
+    h2 {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 0 0 16px;
+      padding-bottom: 11px;
+      color: var(--navy);
+      font-size: 1.45rem;
+      border-bottom: 2px solid var(--line);
+    }
+    h2 span {
+      display: inline-grid;
+      place-items: center;
+      width: 34px;
+      height: 34px;
+      flex: 0 0 34px;
+      color: #fff;
+      background: var(--blue);
+      border-radius: 50%;
+      font-size: 1rem;
+    }
+    section > p { margin: 0 0 14px; }
+    ul.details { margin: 0; padding-left: 23px; }
+    ul.details li { margin: 10px 0; padding-left: 4px; }
+    ul.details strong { color: var(--navy); }
+    blockquote {
+      margin: 38px 0 22px;
+      padding: 24px 28px;
+      color: #263e59;
+      background: #f1f6fb;
+      border-left: 5px solid #4b83bb;
+      border-radius: 7px;
+      font-size: 1.05rem;
+    }
+    blockquote p { margin: 0 0 10px; }
+    blockquote cite {
+      display: block;
+      color: var(--muted);
+      font-size: .9rem;
+      font-style: normal;
+      font-weight: 700;
+      text-align: right;
+    }
+    .schedule {
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+    }
+    .schedule h3 { margin: 0 0 8px; color: var(--navy); }
+    footer {
+      margin-top: 36px;
+      padding-top: 16px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: .86rem;
+    }
+    @media (max-width: 600px) {
+      .page { margin: 16px auto; padding: 28px 22px; }
+      blockquote { padding: 19px 20px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <p class="eyebrow">행정안전부 보도자료 · 2026년 5월 11일</p>
+    <h1>공무원 인사교류 활성화 및 채용제도 개선 입법예고</h1>
+
+    <div class="summary" aria-label="보도자료 핵심 내용">
+      <ul>
+        <li>핵심 인사교류 직위·민간기업 전담공무원 대상 승진 소요 연수 최대 1년 단축</li>
+        <li>1년 이상 우수 근무자 특별승진 기회 부여, 근무성적 '우' 이상·성과급 'A' 이상 보장</li>
+        <li>2027년부터 8급 공채 한국사를 한국사능력검정시험(3급 이상)으로 대체</li>
+      </ul>
+    </div>
+
+    <p class="meta">행정안전부는 중앙부처·지방정부·민간기업 간 프로젝트 기반 인사교류를 활성화하고, 지방공무원 채용제도를 개선하기 위한 관련 법령 개정안을 입법예고했습니다.</p>
+
+    <section aria-labelledby="incentives">
+      <h2 id="incentives"><span>1</span> 인사 인센티브</h2>
+      <p>핵심 인사교류 직위 근무자와 지역 투자 유치를 전담하는 민간기업 전담공무원에게 실질적인 보상을 제공해 공직사회의 경쟁력을 높입니다.</p>
+      <ul class="details">
+        <li><strong>승진 소요 연수 단축:</strong> 핵심 인사교류 직위 또는 민간기업 전담공무원으로 근무한 기간의 절반을 승진 소요 연수에서 감면합니다. 감면 한도는 최대 1년입니다.</li>
+        <li><strong>특별승진 기회 부여:</strong> 해당 직위에서 1년 이상 근무하고 우수한 성과를 낸 공무원에게 특별승진 기회를 부여합니다.</li>
+        <li><strong>대우공무원 혜택 확대:</strong> 기존 인사교류자에게 적용하던 대우공무원 산정 시 교류 기간 경력 100% 단축 혜택을 민간기업 전담공무원에게도 확대합니다.</li>
+        <li><strong>평가·성과급 보장:</strong> 인사교류자는 일반 공무원과 평정 단위를 분리해 근무성적평정 최소 '우' 등급, 성과급 최소 'A' 등급을 보장받습니다. 최상위 등급 우수 성과자에게 특별성과가산금을 지급할 수 있는 근거도 마련합니다.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="recruitment">
+      <h2 id="recruitment"><span>2</span> 채용제도 개선</h2>
+      <p>수험생 부담을 완화하고 우수 인재의 공직 진출을 넓히기 위해 지방공무원 공개경쟁채용 및 경력경쟁채용 제도를 개선합니다.</p>
+      <ul class="details">
+        <li><strong>8급 한국사 과목 대체:</strong> 2027년부터 8급 공채 한국사 과목을 9급과 동일하게 한국사능력검정시험(3급 이상)으로 대체합니다.</li>
+        <li><strong>경력 요건 완화:</strong> 최신 경력 반영이 중요한 특정 분야 경력경쟁채용시험은 필요 경력을 1년 범위 내에서 단축할 수 있도록 근거를 마련합니다.</li>
+        <li><strong>추천채용 대상 직급 확대:</strong> 우수 인재 추천채용제 대상 직급을 현행 8급 이하에서 7급까지 확대합니다.</li>
+        <li><strong>취약 청년 공직 진출 지원:</strong> 9급 공채 저소득층 구분모집 대상에 자립준비청년과 보호기간 연장청년을 추가합니다. 기초생활수급자·한부모가족 지원 대상자에게 요구되던 2년 이상의 자격 유지 기간은 1년으로 완화합니다.</li>
+      </ul>
+    </section>
+
+    <blockquote>
+      <p>“이번 조치는 프로젝트 기반 인사교류를 통해 대규모 국책사업 등에 참여하는 공무원에게 파격적인 인센티브를 부여해 보다 성공적인 사업 추진을 돕기 위한 것”이라며, “앞으로도 공직사회의 개방성을 확대하고 활력을 제고할 수 있도록 지방인사제도를 적극적으로 개선해 나가겠다”고 밝혔다.</p>
+      <cite>윤호중 행정안전부 장관</cite>
+    </blockquote>
+
+    <div class="schedule">
+      <h3>입법예고 및 시행 일정</h3>
+      <ul class="details">
+        <li><strong>입법예고:</strong> 2026년 5월 11일(월)부터 6월 10일(화)까지</li>
+        <li><strong>의견 제출:</strong> 행정안전부 누리집 또는 대한민국 전자관보</li>
+        <li><strong>예정:</strong> 규제심사·법제처 심사를 거쳐 2026년 하반기 중 공포·시행 예정</li>
+      </ul>
+    </div>
+
+    <footer>
+      담당: 행정안전부 지방인사제도과 김정민 · 044-205-3347<br>
+      자료 코드: 260511 · 발표일: 2026년 5월 11일
+    </footer>
+  </main>
+</body>
+</html>
